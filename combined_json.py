@@ -131,6 +131,3 @@ if __name__ == "__main__":
                 train_box.write("\n")
                 train_img.write("\n")
     seg(model_path, train_file_path, box_file_path, img_file_path)
-
-    # ^\s*$\n
-    # \S+------------------------------------------------------------------
